@@ -27,8 +27,8 @@ public class TypekitFactory {
             TextView textView = (TextView) view;
 
             TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.Typekit);
-            if (array != null) {
-                int fontValue = array.getInt(R.styleable.Typekit_font, -1);
+            int fontValue = (array != null) ? array.getInt(R.styleable.Typekit_font, -1) : -1;
+            if (fontValue != -1) {
                 switch (fontValue) {
                     case 1:
                         textView.setTypeface(Typekit.getInstance().get(Typekit.Style.Custom1));
