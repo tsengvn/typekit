@@ -23,6 +23,13 @@ Typekit.getInstance()
 
 Now the custom font is ready for any class which is subclass of TextView
 
+### Dependency
+```groovy
+dependencies {
+    compile 'com.tsengvn:Typekit:1.0.0'
+}
+```
+
 Licence
 =======
     Copyright (c) 2015 Hien Ngo
