@@ -1,3 +1,5 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Typekit-green.svg?style=flat)](https://android-arsenal.com/details/1/1957)
+
 # typekit
 *Typekit* is a library that help you quick change default font of your android application. You don't need to add any custom view or tag to your current xml layout file. You make a quick config in your application class and change the font that you need specific for a style.
 
