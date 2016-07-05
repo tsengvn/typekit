@@ -7,7 +7,7 @@
 ##### v1.0.1
 - Fixed bugs
 - Add support Toolbar title and subttile
-- Add support Html spanned from xml (<b> and <i>)
+- Add support Html spanned from xml
 
 Override this in your base activity
 
