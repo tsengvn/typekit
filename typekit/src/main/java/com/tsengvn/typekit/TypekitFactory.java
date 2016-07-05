@@ -49,6 +49,8 @@ public class TypekitFactory {
     }
 
     private void applyFontForTextView(Context context, AttributeSet attrs, TextView textView) {
+        if (textView.getTag(R.id.typekit) != null) return;
+
         Typekit typekit = Typekit.getInstance();
 
         TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.Typekit);
@@ -94,5 +96,7 @@ public class TypekitFactory {
         if (array != null) {
             array.recycle();
         }
+
+        textView.setTag(R.id.typekit, true);
     }
 }
