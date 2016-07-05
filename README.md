@@ -3,6 +3,12 @@
 # typekit
 *Typekit* is a library that help you quick change default font of your android application. You don't need to add any custom view or tag to your current xml layout file. You make a quick config in your application class and change the font that you need specific for a style.
 
+###### Changes Log
+##### v1.0.1
+- Fixed bugs
+- Add support Toolbar title and subttile
+- Add support Html spanned from xml (<b> and <i>)
+
 Override this in your base activity
 
 ```java
