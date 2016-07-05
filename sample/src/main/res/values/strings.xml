@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Typekit sample</string>
+    <string name="html_text"><b>This is</b> a <i>html</i> <b><i>texttttt</i></b></string>
 </resources>

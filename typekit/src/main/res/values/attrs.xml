@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="Typekit">
-        <attr name="font">
-            <enum name="custom1" value="1"/>
-            <enum name="custom2" value="2"/>
-            <enum name="custom3" value="3"/>
-            <enum name="custom4" value="4"/>
-            <enum name="custom5" value="5"/>
-            <enum name="custom6" value="6"/>
-            <enum name="custom7" value="7"/>
-            <enum name="custom8" value="8"/>
-            <enum name="custom9" value="9"/>
-            <enum name="custom" value="10"/>
-        </attr>
+        <attr name="font" format="string"/>
     </declare-styleable>
 </resources>

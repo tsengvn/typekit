@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:ignore="MissingPrefix">
 
     <TextView
         android:layout_width="wrap_content"
@@ -17,30 +19,37 @@
         android:layout_height="wrap_content"
         android:text="Double_Bubble_shadow"
         android:textColor="@android:color/black"
-        android:textStyle="bold"
-        android:textSize="18sp"/>
+        android:textSize="18sp"
+        android:textStyle="bold"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Double_Bubble_shadow_italic"
         android:textColor="@android:color/black"
-        android:textStyle="bold|italic"
-        android:textSize="18sp"/>
+        android:textSize="18sp"
+        android:textStyle="bold|italic"/>
 
-    <!--<TextView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="soopafre"-->
-        <!--android:textColor="@android:color/black"-->
-        <!--app:font="custom1"-->
-        <!--android:textSize="18sp"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="soopafre"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:font="custom1"/>
 
-    <!--<TextView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Break It Down"-->
-        <!--android:textColor="@android:color/black"-->
-        <!--app:font="custom2"-->
-        <!--android:textSize="18sp"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Break It Down"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:font="custom2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/html_text"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"/>
 </LinearLayout>
