@@ -20,6 +20,7 @@ public class SampleApp extends Application {
                 .addItalic(Typekit.createFromAsset(this, "Double_Bubble_shadow_italic.otf"))
                 .addBoldItalic(Typekit.createFromAsset(this, "Break It Down.ttf"))
                 .addCustom1(Typekit.createFromAsset(this, "Wedding Chardonnay.ttf"))
-                .addCustom2(Typekit.createFromAsset(this, "Break It Down.ttf"));
+                .addCustom2(Typekit.createFromAsset(this, "Break It Down.ttf"))
+                .add("disney", Typekit.createFromAsset(this, "waltographUI.ttf"));
     }
 }
