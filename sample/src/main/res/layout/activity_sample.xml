@@ -28,19 +28,19 @@
         android:textStyle="bold|italic"
         android:textSize="18sp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="soopafre"
-        android:textColor="@android:color/black"
-        app:font="custom1"
-        android:textSize="18sp"/>
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="soopafre"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--app:font="custom1"-->
+        <!--android:textSize="18sp"/>-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Break It Down"
-        android:textColor="@android:color/black"
-        app:font="custom2"
-        android:textSize="18sp"/>
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Break It Down"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--app:font="custom2"-->
+        <!--android:textSize="18sp"/>-->
 </LinearLayout>
