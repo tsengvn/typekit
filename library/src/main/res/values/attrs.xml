@@ -11,6 +11,7 @@
             <enum name="custom7" value="7"/>
             <enum name="custom8" value="8"/>
             <enum name="custom9" value="9"/>
+            <enum name="custom" value="10"/>
         </attr>
     </declare-styleable>
 </resources>

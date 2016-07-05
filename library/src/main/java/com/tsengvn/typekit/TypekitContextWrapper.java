@@ -5,7 +5,6 @@ import android.content.ContextWrapper;
 import android.view.LayoutInflater;
 
 /**
- * Copyright (c) 2015, Posiba. All rights reserved.
  *
  * @author Hien Ngo
  * @since 5/8/15

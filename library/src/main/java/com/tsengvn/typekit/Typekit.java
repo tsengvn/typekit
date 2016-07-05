@@ -6,7 +6,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Copyright (c) 2015, Posiba. All rights reserved.
  *
  * @author Hien Ngo
  * @since 5/8/15
@@ -22,76 +21,85 @@ public class Typekit {
         return ourInstance;
     }
 
-    private Map<Style, Typeface> mFonts = new HashMap<>();
+    private Map<String, Typeface> mFonts = new HashMap<>();
     private Typekit() {
     }
 
     public Typeface get(Style style){
-        return mFonts.get(style);
+        return get(style.toString());
+    }
+
+    public Typeface get(String key){
+        return mFonts.get(key);
     }
 
     public Typekit addNormal(Typeface typeface){
-        mFonts.put(Style.Normal, typeface);
+        mFonts.put(Style.Normal.toString(), typeface);
         return this;
     }
 
     public Typekit addItalic(Typeface typeface){
-        mFonts.put(Style.Italic, typeface);
+        mFonts.put(Style.Italic.toString(), typeface);
         return this;
     }
 
     public Typekit addBold(Typeface typeface){
-        mFonts.put(Style.Bold, typeface);
+        mFonts.put(Style.Bold.toString(), typeface);
         return this;
     }
 
     public Typekit addBoldItalic(Typeface typeface){
-        mFonts.put(Style.BoldItalic, typeface);
+        mFonts.put(Style.BoldItalic.toString(), typeface);
         return this;
     }
 
     public Typekit addCustom1(Typeface typeface){
-        mFonts.put(Style.Custom1, typeface);
+        mFonts.put(Style.Custom1.toString(), typeface);
         return this;
     }
 
     public Typekit addCustom2(Typeface typeface){
-        mFonts.put(Style.Custom2, typeface);
+        mFonts.put(Style.Custom2.toString(), typeface);
         return this;
     }
 
     public Typekit addCustom3(Typeface typeface){
-        mFonts.put(Style.Custom3, typeface);
+        mFonts.put(Style.Custom3.toString(), typeface);
         return this;
     }
 
     public Typekit addCustom4(Typeface typeface){
-        mFonts.put(Style.Custom4, typeface);
+        mFonts.put(Style.Custom4.toString(), typeface);
         return this;
     }
 
     public Typekit addCustom5(Typeface typeface){
-        mFonts.put(Style.Custom5, typeface);
+        mFonts.put(Style.Custom5.toString(), typeface);
         return this;
     }
 
     public Typekit addCustom6(Typeface typeface){
-        mFonts.put(Style.Custom6, typeface);
+        mFonts.put(Style.Custom6.toString(), typeface);
         return this;
     }
 
     public Typekit addCustom7(Typeface typeface){
-        mFonts.put(Style.Custom7, typeface);
+        mFonts.put(Style.Custom7.toString(), typeface);
         return this;
     }
 
     public Typekit addCustom8(Typeface typeface){
-        mFonts.put(Style.Custom8, typeface);
+        mFonts.put(Style.Custom8.toString(), typeface);
         return this;
     }
 
     public Typekit addCustom9(Typeface typeface){
-        mFonts.put(Style.Custom9, typeface);
+        mFonts.put(Style.Custom9.toString(), typeface);
+        return this;
+    }
+
+    public Typekit add(String key, Typeface typeface) {
+        mFonts.put(key, typeface);
         return this;
     }
 

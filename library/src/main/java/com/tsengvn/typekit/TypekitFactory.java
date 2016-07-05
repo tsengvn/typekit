@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.TextView;
 
 /**
- * Copyright (c) 2015, Posiba. All rights reserved.
  *
  * @author Hien Ngo
  * @since 5/8/15
@@ -57,6 +56,9 @@ public class TypekitFactory {
                     case 9:
                         textView.setTypeface(Typekit.getInstance().get(Typekit.Style.Custom9));
                         break;
+                    case 10:
+//                        textView.setTypeface(Typekit.getInstance().get());
+                        break;
                 }
             } else {
                 Typeface typeface = textView.getTypeface();
@@ -70,7 +72,26 @@ public class TypekitFactory {
                     textView.setTypeface(Typekit.getInstance().get(Typekit.Style.Italic));
                 }
                 if (textView.getText() instanceof Spanned) {
-                    Spanned spanned = (Spanned) textView.getText();
+
+//                    Spanned spanned = (Spanned) textView.getText();
+//                    StyleSpan[] spans = spanned.getSpans(0, spanned.length(), StyleSpan.class);
+//                    if (spans != null && spans.length > 0) {
+//                        SpannableStringBuilder builder = new SpannableStringBuilder(textView.getText());
+//                        builder.setSpan();
+//                        for (StyleSpan styleSpan : spans) {
+//                            int start = spanned.getSpanStart(styleSpan);
+//                            int end = spanned.getSpanEnd(styleSpan);
+//                            if (styleSpan.getStyle() == Typeface.BOLD) {
+//
+//                            } else if (styleSpan.getStyle() == Typeface.BOLD_ITALIC) {
+//
+//                            } else if (styleSpan.getStyle() == Typeface.Italic) {
+//
+//                            }
+//                        }
+//                    }
+
+
                 }
             }
 

@@ -14,7 +14,6 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 /**
- * Copyright (c) 2015, Posiba. All rights reserved.
  *
  * @author Hien Ngo
  * @since 5/8/15
