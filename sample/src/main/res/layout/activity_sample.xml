@@ -7,6 +7,20 @@
               android:orientation="vertical"
               tools:ignore="MissingPrefix">
 
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/darker_gray"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:title="Toolbar title"
+        app:subtitle="Sub Tittle"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
