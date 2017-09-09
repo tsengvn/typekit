@@ -35,7 +35,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.2'
+        classpath 'com.android.tools.build:gradle:2.3.3'
     }
 }
 
@@ -43,12 +43,12 @@ android {
     signingConfigs {
     }
     compileSdkVersion 22
-    buildToolsVersion "21.1.2"
+    buildToolsVersion "26.0.1"
     defaultConfig {
         minSdkVersion 10
         targetSdkVersion 22
-        versionCode 2
-        versionName "1.0.1"
+        versionCode 3
+        versionName "1.0.2"
     }
     buildTypes {
         release {
