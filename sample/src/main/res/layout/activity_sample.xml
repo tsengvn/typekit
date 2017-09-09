@@ -50,7 +50,7 @@
         android:text="soopafre"
         android:textColor="@android:color/black"
         android:textSize="18sp"
-        app:font="custom1"/>
+        app:fontType="custom1"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -58,7 +58,7 @@
         android:text="Break It Down"
         android:textColor="@android:color/black"
         android:textSize="18sp"
-        app:font="custom2"/>
+        app:fontType="custom2"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -73,5 +73,5 @@
         android:text="Waltograph Disney"
         android:textColor="@android:color/black"
         android:textSize="30sp"
-        app:font="disney"/>
+        app:fontType="disney"/>
 </LinearLayout>
